@@ -72,3 +72,19 @@ const returnText = ({name, age, address: { country }}) => console.log(`${name}, 
 returnText(person);
 
 
+const myPromise = () => new Promise((resolve, reject)=>{
+    setTimeout(()=>{resolve('OK')},2000)
+});
+
+myPromise().then(response => {
+    // console.log(response);
+}).catch(erro => {
+    console.log(erro)
+});
+
+async function executePromise() 
+{
+    const response = await myPromise();
+    console.log(response);
+}
+executePromise()
