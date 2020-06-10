@@ -8,6 +8,7 @@
   - Arrow functions;
   - Template Literals;
   - Object Short Syntax;
+  - Webpack;
   - Async/await;
   - Import/export;
 
