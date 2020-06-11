@@ -12,10 +12,24 @@
     <title>ES6</title>
 </head>
 <body>
+    <!-- Modal Trigger -->
+  <!-- <a class="waves-effect waves-light btn " href="#modal1">Modal</a> -->
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal ">
+    <div class="modal-content red lighten-1">
+      <h4 class="white-text" id="modal_title">Modal Header</h4>
+      <p id="modal_body" class="white-text">A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat red-text ">not now</a>
+      <a href="#!" id="add" class="modal-close waves-effect waves-green btn-flat green-text ">get it!</a>
+    </div>
+  </div>
     <div class="center-align" class="container">
-        <nav>
+        <nav class="red darken-3">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo center">.myTodoList</a>
+                <a href="#" class="brand-logo center">.myPokeList</a>
             </div>
         </nav>
     </div>
@@ -29,19 +43,49 @@
             </div>
           </form>
         </div>
-        <a id="newPokemon" class="waves-effect waves-light btn">ADD</a>
+        <a id="newPokemon" class="waves-effect waves-light btn red darken-3 modal-trigger"><i class="material-icons">search</i></a>
         <br>
         <br>
         <ul class="collection with-header">
             <li class="collection-header"><h4>List</h4></li>
-            <li class="collection-item"><div>Alan<a href="#!" class="secondary-content"><i class="material-icons">delete</i></a></div></li>
+            <li class="collection-item">
+              <div class="row">
+              <div class="col m4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/30.png">
+                    <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Sample1</span>
+                  </div>
+                  <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#">This is a link</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col m4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/25.png">
+                    <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Sample2</span>
+                  </div>
+                  <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#">This is a link</a>
+                  </div>
+                </div>
+              </div>
+            </div></li>
         </ul>
     </div>
-    <footer class="page-footer" style="position:fixed;bottom:0;left:0;width:100%;">
+    <!-- <footer class="page-footer" style=" background-color: black !important; position:fixed;bottom:0;left:0;width:100%;">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
-              <h5 class="white-text">.myTodoList</h5>
+              <h5 class="white-text">.myPokeList</h5>
               <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
             </div>
             <div class="col l4 offset-l2 s12">
@@ -61,7 +105,7 @@
           <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
           </div>
         </div>
-    </footer>
+    </footer> -->
     <script src="./bundle.js"></script>
 </body>
 </html>
