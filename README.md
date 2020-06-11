@@ -7,10 +7,12 @@
   - Array operations;
   - Arrow functions;
   - Template Literals;
+  - let/const;
   - Object Short Syntax;
   - Webpack;
   - Async/await;
   - Import/export;
+  - Axios;
 
 ### Installation
 

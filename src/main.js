@@ -1,16 +1,36 @@
 import axios from 'axios';
-class Api
-{
-    static async getUser(name)
+class App {
+    constructor()
     {
-        try {
-            const reponse = await axios.get(`https://api.github.com/users/${name}`);
-            console.log(reponse.data);
+        this.pokemons = [];
+        this.btnEl = document.getElementById('newPokemon');
+        this.inputEl = document.getElementById('name');
+        this.registerHandlers();
+    }
 
-        }catch (e){
-            console.warn(e)
+    registerHandlers() {
+        this.btnEl.onclick = (event) => {
+            this.addPokemon(event,this.inputEl.value)
         }
     }
 
+    async addPokemon(e,name) {
+        e.preventDefault();
+        try{        
+            const pokemon = await axios.get(`https://pokeapi.co/api/v2/pokemon/${name}`); 
+            this.pokemons.push(pokemon.data);
+            console.log(this.pokemons);
+        }catch(e){
+            alert(e)
+        }
+
+        this.render()
+    }
+
+    render()
+    {
+
+    }
 }
-Api.getUser('alantmelo');
+
+new App();
