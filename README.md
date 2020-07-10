@@ -6,9 +6,9 @@
     <img alt="Starter" src=".public/js.png" width="200px" />
 </h1>
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-<h1 align="center"> 
+
   ![MyPokeList](https://res.cloudinary.com/alantmelo/image/upload/v1594419234/mypokelist_s0z0md.gif)
-</h1>
+
 # What I've learned!
 
   - Class;
