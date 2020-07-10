@@ -5,9 +5,6 @@
 
 # ES6 fundamentals
 
-<h1 align="center">
-    <img alt="Starter" src=".public/js.png" width="200px" />
-</h1>
 <div align="center">
 
   ![MyPokeList](https://res.cloudinary.com/alantmelo/image/upload/v1594419234/mypokelist_s0z0md.gif)
