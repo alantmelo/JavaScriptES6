@@ -1,12 +1,6 @@
 
 # ES6 fundamentals
 
-<h1 align="center">  
-
-  ![Js](https://res.cloudinary.com/alantmelo/image/upload/v1594419234/js_fdtbta.png)
-</h1>
-
-
 <div align="center">
 
   ![MyPokeList](https://res.cloudinary.com/alantmelo/image/upload/v1594419234/mypokelist_s0z0md.gif)
