@@ -1,7 +1,10 @@
 <h1 align="center">  
+
   ![Js](https://res.cloudinary.com/alantmelo/image/upload/v1594419234/js_fdtbta.png)
 </h1>
+
 # ES6 fundamentals
+
 <h1 align="center">
     <img alt="Starter" src=".public/js.png" width="200px" />
 </h1>
