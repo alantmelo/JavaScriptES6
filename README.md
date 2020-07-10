@@ -1,9 +1,11 @@
+
+# ES6 fundamentals
+
 <h1 align="center">  
 
   ![Js](https://res.cloudinary.com/alantmelo/image/upload/v1594419234/js_fdtbta.png)
 </h1>
 
-# ES6 fundamentals
 
 <div align="center">
 
