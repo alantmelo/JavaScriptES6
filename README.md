@@ -1,4 +1,10 @@
+<h1 align="center">
+    <img alt="Starter" title="ES6 Starter"src="public/mypokelist.gif" width="200px" />
+</h1>
 # ES6 fundamentals
+<h1 align="center">
+    <img alt="Starter" src=".public/js.png" width="200px" />
+</h1>
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 # What I've learned!
